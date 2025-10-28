@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice Recorder + Beat Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-card">
+    <h1 class="app-title">🎙️ Voice Recorder + Beat Lab</h1>
+
+    <!-- Record -->
+    <button id="recordBtn" class="ui-btn">● Record</button>
+
+    <div class="status-row">
+      <span id="statusTag" class="status-chip status-idle">Not recording</span>
+    </div>
+
+    <p class="sub-hint">
+      Tap Record, speak, then tap Record again to stop.
+    </p>
+
+    <!-- Voice Effects Panel -->
+    <section class="panel">
+      <h2 class="panel-heading">Voice Effects</h2>
+
+      <!-- Voice Pitch -->
+      <div class="ctrl-row">
+        <div class="ctrl-text">
+          <div class="ctrl-label">
+            Voice Pitch
+            <span id="pitchValue" class="inline-val">+5%</span>
+          </div>
+          <div class="ctrl-hint">
+            Higher = brighter / faster. Lower = deeper / slower.
+          </div>
+        </div>
+
+        <input
+          id="pitchRange"
+          class="ctrl-input"
+          type="range"
+          min="0.5"
+          max="1.5"
+          step="0.05"
+          value="1.1"
+        />
+      </div>
+
+      <!-- Echo -->
+      <div class="ctrl-row">
+        <div class="ctrl-text">
+          <div class="ctrl-label">
+            Echo Level
+            <span id="echoValue" class="inline-val">0.05</span>
+          </div>
+          <div class="ctrl-hint">
+            Add space / reverb. Set to 0 for totally clean voice.
+          </div>
+        </div>
+
+        <input
+          id="echoRange"
+          class="ctrl-input"
+          type="range"
+          min="0"
+          max="0.6"
+          step="0.05"
+          value="0.05"
+        />
+      </div>
+
+      <button id="applyFxBtn" class="ui-btn ui-btn-secondary">
+        Apply Effects
+      </button>
+    </section>
+
+    <!-- Beat Panel -->
+    <section class="panel">
+      <h2 class="panel-heading">Beat Settings</h2>
+
+      <!-- Beat Speed -->
+      <div class="ctrl-row">
+        <div class="ctrl-text">
+          <div class="ctrl-label">
+            Beat Speed
+            <span id="tempoValue" class="inline-val">90 BPM</span>
+          </div>
+          <div class="ctrl-hint">
+            Lower BPM = chill. Higher = hype.
+          </div>
+        </div>
+
+        <input
+          id="tempoRange"
+          class="ctrl-input"
+          type="range"
+          min="60"
+          max="140"
+          step="10"
+          value="90"
+        />
+      </div>
+
+      <!-- Beat Style -->
+      <div class="ctrl-row">
+        <div class="ctrl-text">
+          <div class="ctrl-label">Beat Style</div>
+          <div class="ctrl-hint">Pick your groove.</div>
+        </div>
+
+        <select id="beatStyle" class="ctrl-select">
+          <option value="boom">Boom Bap</option>
+          <option value="four">4-on-the-Floor</option>
+          <option value="trap">Trap-ish</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Processed playback -->
+    <section class="panel">
+      <div class="panel-heading-row">
+        <div class="panel-heading">Processed Voice</div>
+        <span id="fxTag" class="status-chip status-idle">Not ready</span>
+      </div>
+
+      <audio id="fxPlayer" class="audio-player" controls></audio>
+
+      <button id="playWithBeatBtn" class="ui-btn ui-btn-secondary">
+        Play FX + Beat
+      </button>
+
+      <p class="sub-hint">
+        This plays your processed voice with your chosen beat.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 Voice Recorder Lab</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
