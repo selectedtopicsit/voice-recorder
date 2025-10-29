@@ -8,9 +8,9 @@
 No server, no upload — everything runs locally using the **Web Audio API**.
 
 Try it live here:  
-👉 [**Live Demo**](https://selectedtopicsit.github.io/voice-recorder-beat-lab/)  
+👉 [**Live Demo**](https://selectedtopicsit.github.io/voice-recorder/)  
 Or download and explore the code:  
-👉 [**GitHub Repository**](https://github.com/selectedtopicsit/voice-recorder-beat-lab)
+👉 [**GitHub Repository**](https://github.com/selectedtopicsit/voice-recorder)
 
 ---
 
@@ -38,7 +38,7 @@ You can test this right in your browser in seconds:
 
 ### Option 1 — View Live
 Visit the hosted version:  
-👉 [https://selectedtopicsit.github.io/voice-recorder-beat-lab/](https://selectedtopicsit.github.io/voice-recorder-beat-lab/)
+👉 [https://selectedtopicsit.github.io/voice-recorder-beat-lab/](https://selectedtopicsit.github.io/voice-recorder/)
 
 ### Option 2 — Run Locally
 1. Click the green **Code** button above and choose **Download ZIP**  
