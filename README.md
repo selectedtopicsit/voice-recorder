@@ -38,7 +38,7 @@ You can test this right in your browser in seconds:
 
 ### Option 1 — View Live
 Visit the hosted version:  
-👉 [https://selectedtopicsit.github.io/voice-recorder-beat-lab/](https://selectedtopicsit.github.io/voice-recorder/)
+👉 [https://selectedtopicsit.github.io/voice-recorder/](https://selectedtopicsit.github.io/voice-recorder/)
 
 ### Option 2 — Run Locally
 1. Click the green **Code** button above and choose **Download ZIP**  
