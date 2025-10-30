@@ -78,6 +78,11 @@ Please credit this project if you feature it publicly.
 ## 🫶 Credits
 Built by **Selected Topics IT** with the help of **ChatGPT (OpenAI)**.  
 Part of the YouTube series: *HTML, CSS & JavaScript Projects*  
-📺 Watch it here → [@SelectedTopicsInIT](https://www.youtube.com/@selectedtopicsinit1274)
+
+---
+
+## 🎥 Watch the Video Demo  
+▶️ [**Full YouTube Tutorial**](https://www.youtube.com/watch?v=gISmvYwgBf8)  
+📺 More tutorials → [@SelectedTopicsInIT](https://www.youtube.com/@selectedtopicsinit1274)
 
 © 2025 Voice Recorder + Beat Lab
