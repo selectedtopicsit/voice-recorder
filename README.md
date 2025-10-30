@@ -75,13 +75,9 @@ Please credit this project if you feature it publicly.
 
 ---
 
-## 🫶 Credits
-Built by **Selected Topics IT** with the help of **ChatGPT (OpenAI)**.  
-Part of the YouTube series: *HTML, CSS & JavaScript Projects*  
+## 🫶 Credits & 🎥 Watch the Video Demo  
+Built by **Selected Topics in IT** with the help of **ChatGPT (OpenAI)**.  
 
----
-
-## 🎥 Watch the Video Demo  
 ▶️ [**Full YouTube Tutorial**](https://www.youtube.com/watch?v=gISmvYwgBf8)  
 📺 More tutorials → [@SelectedTopicsInIT](https://www.youtube.com/@selectedtopicsinit1274)
 
